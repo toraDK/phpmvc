@@ -1,15 +1,15 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="<?= BASEURL ?>">PHP MVC</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="<?= BASEURL ?>">Home</a>
-                <a class="nav-link" href="<?= BASEURL ?>/about">About</a>
-            </div>
+<div class="container">
+    <h1>Selamat Datang di Website Saya</h1>
+    <div class="card">
+        <div class="card-header">
+            Quote
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p>A well-known quote, contained in a blockquote element.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                <button type="button" class="btn btn-primary">About Me</button>
+            </blockquote>
         </div>
     </div>
-</nav>
-    <h1>Selamat Datang di Website Saya</h1>
+</div>
