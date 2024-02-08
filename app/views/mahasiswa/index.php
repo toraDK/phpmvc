@@ -13,8 +13,10 @@
             <h3>Daftar Mahasiswa</h3>
             <?php foreach($data['mhs'] as $mhs) :?>
             <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-start"><?php echo $mhs['nama']; ?>
-                    <a href="<?= BASEURL; ?>/mahasiswa/detail/<?= $mhs['id']; ?>" class="badge text-bg-primary" style="text-decoration: none;">detail</a>
+                <li class="list-group-item"><?php echo $mhs['nama']; ?>
+                <a href="<?= BASEURL; ?>/mahasiswa/hapus/<?= $mhs['id']; ?>" class="badge text-bg-danger float-end mx-1" style="text-decoration: none;" onclick="return confirm('yakin')">Hapus</a>
+                
+                <a href="<?= BASEURL; ?>/mahasiswa/detail/<?= $mhs['id']; ?>" class="badge text-bg-primary float-end mx-1" style="text-decoration: none;">detail</a>
                 </li>
             </ul>
             <?php endforeach; ?>
